@@ -1,0 +1,55 @@
+#app {
+			width: 514px;
+			padding: 10px;
+			box-shadow: 0 0 3px 0 rgba(0, 0, 0, .3);
+		}
+
+		.special {
+			margin: 0;
+			width: 20%;
+			height: 37px;
+			background-color: #f9f9f9;
+			color: #f60;
+			border: 1px solid #ebebeb;
+			cursor: pointer;
+		}
+
+		.normal {
+			margin: 0;
+			width: 25%;
+			height: 37px;
+			background-color: #fff;
+			border: 1px solid #ebebeb;
+			color: #333;
+			cursor: pointer;
+		}
+
+
+		.output-container span {
+			float: right;
+		}
+
+		.output-up {
+			width: 100%;
+			height: 24px;
+			font-size: 13px;
+			line-height: 24px;
+
+		}
+
+		.output-down {
+			width: 100%;
+			height: 31px;
+			font-size: 26px;
+			line-height: 31px;
+
+		}
+
+		.output-container {
+			width: 512px;
+			background-color: #fcfdff;
+		}
+
+		.button-container {
+			width: 512px;
+		}

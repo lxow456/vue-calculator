@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>calculator</title>
+	<!-- import CSS -->
+	<link rel="stylesheet" href="css/calculator.css">
+
+</head>
+
+<body>
+	<div id="app">
+		<calculator-output :expression="expression" :result="result" :calculated="calculated"></calculator-output>
+		<calculator-button :button-arr="buttonArr" @assign="assign"></calculator-button>
+	</div>
+</body>
+
+<script src="js/vue.js"></script>
+<script src="js/calculator.js"></script>
+
+</html>
